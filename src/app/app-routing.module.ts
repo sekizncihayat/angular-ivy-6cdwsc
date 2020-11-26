@@ -9,7 +9,7 @@ import { LocalizeRouterHttpLoader } from "localize-router-http-loader";
 import { TranslateService } from "@ngx-translate/core";
 import { Location } from "@angular/common";
 import { HttpClient } from "@angular/common/http";
-import { HelloComponent } from "./hello.component";
+import { HelloComponent } from "./hello/hello.component";
 
 export function HttpLoaderFactory(
   translate: TranslateService,
